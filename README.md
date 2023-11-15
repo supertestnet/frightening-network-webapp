@@ -17,6 +17,10 @@ Yes.
 
 Because I like Mutiny and I want to make on too. This one is also easier for me to customize baus it is in javasCript, which is a language I understand, whereas Mutiny is in rust, which I don't.
 
+# Does it work?
+
+Not all the way, not yet. On regtest, Vicky can open a channel with Bob and force close it, but that's it. I'm still working on making state updates work like they do in the other version of Frightening Network. Part of the effort involves replacing the copy-paste parts with GET and POST requests, and that's coming along nicely. This one also has buttons, though they mostly don't work yet. When (if) it all ends up working, I hope to move it over to mainnet so people can play with it using real funds. Help me improve it! Maybe one day it will be awesome.
+
 # Instructions for installing and running it
 
 - download this repo
@@ -35,7 +39,3 @@ Because I like Mutiny and I want to make on too. This one is also easier for me 
 - `console.log( vicky_channels[ Object.keys( vicky_channels )[ 0 ] ][ "force_close_txs" ][ "to_delay" ] )` <-- broadcast that
 - `console.log( vicky_channels[ Object.keys( vicky_channels )[ 0 ] ][ "force_close_txs" ][ "final_tx" ] )` <-- broadcast that after waiting 7 blocks
 - Yay! You opened a channel and force closed it! Now I just need to make the other stuff work and we'll be in business
-
-# Does it work?
-
-Not all the way, not yet. On regtest, Vicky can open a channel with Bob and force close it, but that's it. I'm still working on making state updates work like they do in the other version of Frightening Network. Part of the effort involves replacing the copy-paste parts with GET and POST requests, and that's coming along nicely. This one also has buttons, though they mostly don't work yet. When (if) it all ends up working, I hope to move it over to mainnet so people can play with it using real funds. Help me improve it! Maybe one day it will be awesome.
