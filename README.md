@@ -25,8 +25,8 @@ Not all the way, not yet. On regtest, Vicky can open a channel with Bob and forc
 
 - download this repo
 - go into the directory
-- run `npm init -y`
 - ensure you are using nodejs v19.9.0 (I did this by installing `nvm` and running `nvm install 19`)
+- run `npm init -y`
 - install the dependencies: `npm i @cmdcode/tapscript noble-secp256k1 @dashincubator/ripemd160 bolt11`
 - make it a module by modifying package.json to add this key/value pair: `"type": "module",` under `"main": "index.js",`
 - run the app with node index.js
