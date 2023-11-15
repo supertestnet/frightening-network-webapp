@@ -15,7 +15,7 @@ Yes.
 
 # Why are you doing it too?
 
-Because I like Mutiny and I want to make on too. This one is also easier for me to customize baus it is in javasCript, which is a language I understand, whereas Mutiny is in rust, which I don't.
+Because I like Mutiny and I want to make one too. This one is also easier for me to customize baus it is in javasCript, which is a language I understand, whereas Mutiny is in rust, which I don't.
 
 # Does it work?
 
