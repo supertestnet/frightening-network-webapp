@@ -3,7 +3,7 @@ A fork of the frightening network but designed to work as a web wallet
 
 # What is this?
 
-The [frightening network](https://github.com/supertestnet/frightening-network) is my own personal version of the lightning network except you're much more likely to lose all your money. The original only supports payments between Vicky and Paul. In this version, Paul runs a copy of LND and lets Vicky pay him to send "real" lightning payments to other people on the ntwork. He also forwards payments to her from other people on the network.
+The [frightening network](https://github.com/supertestnet/frightening-network) is my own personal version of the lightning network except you're much more likely to lose all your money. The one I just linked to only supports payments between Vicky and Paul. In this version, Paul runs a copy of LND and lets Vicky pay him to send "real" lightning payments to other people on the ntwork. He also forwards payments to her from other people on the network.
 
 # So it's like lightning in the browser?
 
